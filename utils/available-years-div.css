@@ -1,0 +1,56 @@
+.available-years-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.available-years-div a {
+  color: #3471B8;
+}
+.available-years-div p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.available-years-div ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.current-year {
+  font-weight: bold;
+}
+
+.publications-wrapper-year {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.publications {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.publications a {
+  color: #3471B8;
+}
+.publications:nth-of-type(even) {
+  background: ghostwhite;
+}
+.publications:nth-of-type(odd) {
+  background: lightgray;
+}
+
+/*# sourceMappingURL=available-years-div.css.map */
