@@ -11,7 +11,9 @@ License: A "Slug" license name e.g. GPL2
 */
 
 require_once(plugin_dir_path(__FILE__) . 'all_publications.php');
+require_once(plugin_dir_path(__FILE__) . 'dissemination.php');
 add_shortcode('publications_years', 'display_all_publications_by_year');
+add_shortcode('publications_dissemination1', 'display_dissemination1');
 
 function custom_enqueue_scripts() {
     // Enqueue CSS for form styling
